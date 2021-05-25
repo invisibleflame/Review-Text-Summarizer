@@ -8,7 +8,7 @@ Basic preprocessing is applied on the input data and then it is tokenized and pa
 
 ## Sample Output
 
-Review: love hot sauces rediculous thought like good hot sauce would good tacos nachos etc nice heat stuff stupid hot bought three pack regreted moment tried standard insanity sauce cannot even tolerate dashes tacos good \n
+Review: love hot sauces rediculous thought like good hot sauce would good tacos nachos etc nice heat stuff stupid hot bought three pack regreted moment tried standard insanity sauce cannot even tolerate dashes tacos good /n
 Original summary: seriously 
 Predicted summary:  good hot sauce
 
