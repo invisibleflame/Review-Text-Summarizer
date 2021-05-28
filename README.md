@@ -7,6 +7,8 @@ The same network can be trained with some conversational data like Samsun data i
 Basic preprocessing is applied on the input data and then it is tokenized and padded. After that the encoder decoder model is used.
 
 Instead of the keras tokenizer and padding, the glove embeddings or word2vec can also be used. Though, I am skeptical if it will have ay positive impact on the results.
+
+A good way to improve results would be to consider the whole previous output for predicting the next word, currently only the previous word is being considered to predict the next word.
 ## Sample Output
 
 **Review**: love hot sauces rediculous thought like good hot sauce would good tacos nachos etc nice heat stuff stupid hot bought three pack regreted moment tried standard insanity sauce cannot even tolerate dashes tacos good <br>
